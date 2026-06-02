@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Advanced Product Manager</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>
+            <i class="fa-solid fa-server"></i>
+            Advanced Product Manager
+        </h1>
+
+        
+    </div>
+
+    <div class="stats">
+
+        <div class="card">
+            <h3>Total Products</h3>
+            <span id="totalProducts">0</span>
+        </div>
+
+        
+
+    </div>
+
+    <div class="form-card">
+
+        <h2>Add Product</h2>
+
+        <form id="productForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Product Name"
+                required
+            >
+
+            <input
+                type="number"
+                id="price"
+                placeholder="Product Price"
+                required
+            >
+
+            <button type="submit">
+                <i class="fa-solid fa-plus"></i>
+                Add Product
+            </button>
+
+        </form>
+
+    </div>
+
+    <div class="products-section">
+
+        <h2>Products</h2>
+
+        <div id="productList" class="products-grid"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
